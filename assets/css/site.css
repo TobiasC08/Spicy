@@ -68,7 +68,24 @@ p{
     color: #000000;
     margin: 0;
     font-size: 20px;
+    padding: 15px;
+    font-weight: 100;
 }
-p{
-    font-weight: 200;
+.info h1{
+    margin: 0;
+    padding: 0;
+}
+.galleri {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 2vw;
+}
+.galleri h1 {
+    grid-column: 1 / -1;
+    text-align: left;
+}
+.galleri img {
+    width: 100%;
+    height: auto;
 }
