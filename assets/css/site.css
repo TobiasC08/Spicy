@@ -18,7 +18,7 @@ header.header-main {
     top: 25%;
 }
 
-/* Base styles */
+
 html {
     scroll-behavior: smooth;
 }
@@ -42,7 +42,7 @@ header,.nav-main,h1,h2,h3,h4,h5,h6 {
     height: auto;
 }
 
-/* Headings and spacing */
+
 h1 {
     color: #c82113;
     margin: 2vw;
@@ -53,7 +53,7 @@ h1 {
     margin-top: 150px;
 }
 
-/* Info section */
+
 .info {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -81,7 +81,7 @@ p {
     grid-column: 1 / -1;
 }
 
-/* Gallery section */
+
 .galleri {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -99,7 +99,7 @@ p {
     height: auto;
 }
 
-/* Tile switcher */
+
 #tileSwitcher {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
@@ -118,29 +118,29 @@ p {
 }
 
 /* Contact section */
+
 .contact-section {
     background: #2f2f2f;
     padding: 50px 2vw;
     display: flex;
     justify-content: space-between;
-    gap: 50px;
+    gap: 45px;
     flex-wrap: wrap;
     margin-top: 150px;
 }
 
 .contact-info {
-    flex: 1;
     min-width: 300px;
 }
 
 .contact-title,.map-title {
     color: #1085df;
-    font-size: 60px;
+    font-size: 45px;
     margin-bottom: 20px;
 }
 
 .company {
-    color: white;
+    color: #4a4a4a;
     font-size: 35px;
     margin-bottom: 20px;
 }
@@ -150,7 +150,7 @@ p {
 }
 
 .address {
-    color: white;
+    color: var(lightblue);
     font-size: 30px;
     line-height: 1.5;
     margin-bottom: 30px;
@@ -187,7 +187,6 @@ p {
 .socials img {
     width: 40px;
     height: 40px;
-    object-fit: contain;
 }
 
 .map-area {
@@ -197,7 +196,7 @@ p {
 
 .map-area iframe {
     width: 100%;
-    height: 350px;
+    height: 200px;
     border: none;
 }
 
