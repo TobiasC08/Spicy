@@ -1,21 +1,30 @@
-.nav-main ul{
+/* Navigation styles */
+.nav-main ul {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     margin: 0;
     padding: 0;
     list-style: none;
-    background-color: #000000;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-color: #000;
+}
 
+.nav-main li {
+    margin: 0;
 }
-.nav-main ul a{
+
+.nav-main a {
     display: block;
-    color: white;
+    color: #fff;
     text-decoration: none;
-    padding: 0.3rem 1rem;
+    padding: 0.6rem 1rem;
+    font-family: 'Bebas Neue', cursive;
 }
-a:hover{
-    background-color: rgba(17, 0, 113, 0.486);
-    transition: 444ms;
+
+.nav-main a:hover {
+    background-color: #333;
+    transition: background-color 0.3s ease;
+}
+
+#kontakt a {
+    color: #1085df;
 }
