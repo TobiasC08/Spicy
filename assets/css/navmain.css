@@ -1,0 +1,21 @@
+.nav-main ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.nav-main ul a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0.3rem 1rem;
+}
+a:hover{
+    background-color: rgba(17, 0, 113, 0.486);
+    transition: 444ms;
+}
